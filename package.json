@@ -1,0 +1,29 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/bot.js"
+  },
+  "dependencies": {
+    "@date-fns/tz": "github:date-fns/tz",
+    "axios": "^1.13.2",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^17.2.3",
+    "ioredis": "^5.8.2",
+    "node-cron": "^4.2.1",
+    "telegraf": "^4.16.3",
+    "tsc": "^2.0.4",
+    "typescript": "^5.9.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@telegraf/types": "^9.2.1",
+    "@types/node": "^25.0.3"
+  }
+}
